@@ -5,9 +5,25 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install -y virtualbox
 choco install -y vagrant
 choco install -y googlechrome
-choco install -y steam
-choco install -y kav
 choco install -y firefox
+#choco install -y steam
+#choco install -y kav
+
+choco install -y pycharm-community
+choco install -y intellijidea-community
+choco install -y vscode
+choco install -y notepadplusplus
+
+
+choco install -y docker-desktop
+choco install -y jdk11
+choco install -y python --version=3.9.6
+
+choco install slack
+
+
+
+
 choco install -y jre8
 choco install -y vcredist140
 choco install -y git.install
@@ -24,5 +40,4 @@ choco install -y microsoft-teams
 choco install -y keepass
 choco install -y google-drive-file-stream
 choco install -y terraform
-choco install -y intellijidea-community
 choco install -y kubernetes-helm
