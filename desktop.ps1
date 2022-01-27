@@ -19,23 +19,14 @@ choco install -y docker-desktop
 choco install -y jdk11
 choco install -y python --version=3.9.6
 
-choco install slack
-
-
-
-
-choco install -y jre8
-choco install -y vcredist140
+choco install -y slack
 choco install -y git.install
 choco install -y winrar
-choco install -y python
 choco install -y skype
-choco install -y putty.install
 choco install -y gimp
+
 choco install -y curl
-choco install -y vscode
 choco install -y awscli
-choco install -y wireshark
 choco install -y microsoft-teams
 choco install -y keepass
 choco install -y google-drive-file-stream
