@@ -6,6 +6,8 @@ choco install -y virtualbox
 choco install -y vagrant
 choco install -y googlechrome
 choco install -y firefox
+choco install -y postman
+
 #choco install -y steam
 #choco install -y kav
 
